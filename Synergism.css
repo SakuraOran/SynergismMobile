@@ -4,7 +4,7 @@ body {
 }
 
 html {
-    min-width: 1250px;
+    /* min-width: 1250px; */
     position: relative;
     font-family:
         -apple-system,
@@ -814,6 +814,7 @@ p#buildinghotkeys2 {
 #upgradesFlex {
     display: flex;
     width: 90%;
+    flex-wrap: wrap;
     margin: 4% 5% 0;
     justify-content: space-around;
 }
@@ -899,8 +900,6 @@ p#buildinghotkeys2 {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    min-width: 300px;
-    max-width: 500px;
     padding: 5px;
 }
 
@@ -1070,6 +1069,7 @@ p#promocodeinfo {
     margin-left: 7.5%;
     margin-bottom: 20px;
     z-index: 1;
+    width: 90%;
     font-size: min(1em, 20px);
 }
 
@@ -1108,11 +1108,11 @@ p#promocodeinfo {
 }
 
 .buttonRow > div > .desc {
-    width: 22em;
+    width: 30%;
 }
 
 .buildingPurchaseBtn {
-    width: 15em;
+    width: 20%;
     border-radius: 8px;
     border: 1px solid white;
     background-color: var(--buttonbuy-color);
@@ -1133,7 +1133,7 @@ p#promocodeinfo {
 }
 
 .buttonRow > div > .auto {
-    width: 6em;
+    width: 5%;
     min-width: 80px;
 }
 
@@ -1144,7 +1144,7 @@ p#promocodeinfo {
 }
 
 .buttonRow > div > .stats {
-    width: 25em;
+    width: 30%;
     line-height: 1em;
 }
 
@@ -1175,6 +1175,7 @@ p#promocodeinfo {
 #achievements {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 #tieredAchievementsTable {
@@ -1408,8 +1409,8 @@ p#promocodeinfo {
 #buyamountmythos,
 #buyamountparticle,
 #buyAmountTesseract {
-    position: absolute;
-    left: 80%;
+    position: relative;
+    left: 10%;
 }
 
 .buyAmountBtn {
@@ -2084,6 +2085,7 @@ p#reincarnatehotkeys {
 .researchContainer {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 #researchtable {
@@ -2176,6 +2178,7 @@ p#reincarnatehotkeys {
 
 #actualShopContainer {
     display: flex;
+    width: 75%;
     flex-direction: column;
     align-items: center;
 }
@@ -2184,7 +2187,8 @@ p#reincarnatehotkeys {
     display: flex;
     padding: 5px;
     margin-top: 10px;
-    width: calc(115px * 8 - 5px);
+    width: 90%;
+    justify-content: space-around;
     border: 3px solid plum;
     gap: 5px;
     flex-wrap: wrap;
@@ -2212,8 +2216,9 @@ p#reincarnatehotkeys {
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    width: 250px;
+    width: 20%;
     margin-right: 20px;
+    margin-left: 10px;
 }
 
 #actualPotionShop {
@@ -2882,9 +2887,7 @@ p#ascendHotKeys {
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    width: 25em;
-    min-width: 500px;
-    max-width: 800px;
+    width: 50%;
     height: fit-content;
     gap: 10px 15px;
 }
@@ -2894,9 +2897,7 @@ p#ascendHotKeys {
 }
 
 .statContainer {
-    width: 30em;
-    min-width: 600px;
-    max-width: 750px;
+    width: 50%;
     flex-direction: column;
     align-items: flex-end;
     margin-bottom: auto;
@@ -3893,7 +3894,7 @@ header #obtainiumDisplay { color: pink; }
 
 .hotkeys {
     display: grid;
-    grid-template-columns: repeat(4, minmax(250px, 1fr));
+    grid-template-columns: repeat(4, minmax(22%, 1fr));
     margin: 20px auto;
 }
 
