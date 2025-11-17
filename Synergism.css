@@ -799,7 +799,7 @@ p#buildinghotkeys2 {
 #buildingtext {
     padding: 0;
     text-align: center;
-    width: 1000px;
+    width: 80%;
 }
 
 #upgrades {
@@ -808,7 +808,6 @@ p#buildinghotkeys2 {
     padding: 0;
     color: gold;
     margin: 0 auto;
-    max-width: 1500px;
 }
 
 #upgradesFlex {
@@ -1429,13 +1428,11 @@ p#promocodeinfo {
     color: cyan;
     flex-direction: column;
     align-items: center;
-    max-width: 1600px;
     margin: 0 auto;
 }
 
 #crystalupgrades {
-    width: 50em;
-    max-width: 1000px;
+    min-width: 70%;
     color: white;
     text-align: center;
 }
@@ -1474,7 +1471,7 @@ p#promocodeinfo {
 
 p#prestigehotkeys {
     margin-top: 15px;
-    width: 1000px;
+    width: 90%;
     text-align: center;
 }
 
@@ -1522,7 +1519,6 @@ p#prestigehotkeys {
 
 #offeringDetails,
 #runeEffectDisplays {
-    max-width: 1200px;
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -2106,8 +2102,8 @@ p#reincarnatehotkeys {
 }
 
 .researchDetails > p {
-    width: 55em;
-    max-width: 100%;
+    min-width: 55%;
+    max-width: 80%;
     margin: 0;
 }
 
@@ -2314,7 +2310,6 @@ p#reincarnatehotkeys {
 }
 
 #shopHovers {
-    width: 800px;
     min-height: 8.2em;
 }
 
@@ -2500,7 +2495,7 @@ p#reincarnatehotkeys {
     margin: 0 30px;
     line-height: 1.1em;
     text-align: center;
-    width: 250px;
+    width: 30%;
     align-items: center;
 }
 
@@ -2596,7 +2591,7 @@ p[id$="BlessingsTotal"] {
     display: flex;
     justify-content: flex-start;
     margin-top: 30px;
-    width: 1250px;
+    width: 100%;
 }
 
 .cubesBonus {
@@ -2654,7 +2649,7 @@ p[id$="BlessingsTotal"] {
 .cubeTab {
     flex-direction: column;
     align-items: center;
-    width: 800px;
+    width: 70%;
     margin-left: 50px;
 }
 
@@ -2723,8 +2718,6 @@ p[id$="BlessingsTotal"] {
     align-items: center;
     flex-basis: 1;
     flex-grow: 0;
-    min-width: 450px;
-    max-width: 750px;
     padding: 5px;
 }
 
@@ -2799,7 +2792,6 @@ button.language-select span.lang-name {
 
 #ascendConstantUpgrades {
     display: flex;
-    width: 50em;
     max-width: 1000px;
     flex-direction: column;
     align-items: center;
@@ -3074,7 +3066,6 @@ p#ascendHotKeys {
 
 #historyAscendTable,
 #historySinhgularityTable {
-    min-width: 1180px;
     white-space: nowrap;
 }
 
@@ -3085,7 +3076,7 @@ p#ascendHotKeys {
 
 #historyAscend .historyTableWrap,
 #historySingularity .historyTableWrap {
-    min-width: 1212px;
+    min-width: 90%;
 }
 
 .runeBlessingPurchaseSettings {
@@ -3587,8 +3578,6 @@ header .img {
 .subHeader {
     display: flex;
     flex-direction: row;
-    min-width: 1250px;
-    max-width: calc((38px + 7.5em) * 4 + 40em);
     min-height: 90px;
     margin-bottom: 5px;
 }
@@ -3629,7 +3618,6 @@ header #obtainiumDisplay { color: pink; }
 #ascensionStats {
     display: flex;
     margin: 10px 0;
-    min-width: 1250px;
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
@@ -4311,8 +4299,6 @@ img#singularityPerksIcon {
     white-space: pre-line;
     margin: 5px 5px 1px;
     height: 150px;
-    min-width: 39em;
-    max-width: 39em;
     padding: 5px;
     overflow: auto;
     text-align: center;
@@ -4320,7 +4306,7 @@ img#singularityPerksIcon {
 
 #singularityPerksGrid {
     display: grid;
-    grid-template-columns: repeat(5, 250px);
+    grid-template-columns: repeat(5, 19%);
     grid-template-rows: repeat(10, auto);
     grid-auto-rows: auto;
     justify-content: center;
